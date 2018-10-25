@@ -1,0 +1,7 @@
+target
+.idea
+src/main/resources/*.log
+src/main/resources/*.csv
+src/main/resources/*.zip
+**/metastore_db
+project/
