@@ -8,9 +8,9 @@ organization := "paristech"
 
 libraryDependencies ++= Seq(
   // Spark dependencies. Marked as provided because they must not be included in the uberjar
-  "org.apache.spark" %% "spark-core" % "2.3.0",
-  "org.apache.spark" %% "spark-sql" % "2.3.0",
-  "org.apache.spark" %% "spark-mllib" % "2.3.0",
+  "org.apache.spark" %% "spark-core" % "2.3.0" % "provided",
+  "org.apache.spark" %% "spark-sql" % "2.3.0" % "provided",
+  "org.apache.spark" %% "spark-mllib" % "2.3.0" % "provided",
 
   // Third-party libraries
   "org.apache.hadoop" % "hadoop-aws" % "2.6.0",
